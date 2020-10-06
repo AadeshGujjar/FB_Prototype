@@ -29,7 +29,7 @@ class Rooms extends StatelessWidget {
             child: _CreateRoomButton(),
             );
           }
-          final User user=onlineUsers[index-1];
+          final User user=onlineUsers[index -1];
             return Padding(padding: const EdgeInsets.symmetric(horizontal: 8.0),
             child: ProfileAvatar(imageUrl: user.imageUrl,
             isActive: true,),
