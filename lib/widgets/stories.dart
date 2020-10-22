@@ -10,15 +10,15 @@ class Stories extends StatelessWidget {
 
 
   const Stories({Key key, this.currentUser,@required this.stories}) : super(key: key);
-
+ 
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 200.0,
-      color: Colors.white ,
+      color: Colors.white,
       child: ListView.builder(
-        padding: const EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric( 
           vertical: 10.0,
           horizontal: 8.0,
         ),
