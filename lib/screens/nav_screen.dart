@@ -10,7 +10,7 @@ class _NavScreenState extends State<NavScreen> {
   final List<Widget> _screens= [
     HomeScreen(),
     Scaffold(),
-  ]
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold();
